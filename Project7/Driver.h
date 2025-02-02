@@ -11,9 +11,9 @@ public:
     // Constructor to initialize the driver 
     Driver(std::string firstName, std::string lastName, int driverId);
 
-    std::string getFirstName() const;
-    std::string getLastName() const;
-    int getDriverId() const;
+    std::string getFirstName() const; // function to retrieve the driver's first name
+    std::string getLastName() const;  // function to retrieve the driver's last name
+    int getDriverId() const;  // retrive the driver's ID
 
 private:
     // Private member variable to store driver's information
